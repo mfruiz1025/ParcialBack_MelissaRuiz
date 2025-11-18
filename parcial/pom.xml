@@ -64,7 +64,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	
+   <dependency>
+     <groupId>org.eclipse.dirigible</groupId>
+     <artifactId>dirigible-components-data-store</artifactId>
+     <version>11.62.0</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>
