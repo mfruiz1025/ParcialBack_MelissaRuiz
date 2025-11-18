@@ -3,6 +3,8 @@ package com.example.parcial.entity;
 import org.hibernate.annotations.SQLDelete;
 import org.hibernate.annotations.Where;
 
+import com.example.parcial.dto.ClinicaDTO;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -38,5 +40,10 @@ public class Doctores {
 
     @ManyToOne
     @JoinColumn(name = "clinica_id") 
-    private Clinica clinica;   
+    private Clinica clinica;
+
+    public ClinicaDTO getDoctores() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getDoctores'");
+    }   
 }
